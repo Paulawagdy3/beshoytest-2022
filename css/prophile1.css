@@ -1,0 +1,75 @@
+.container1
+{
+    margin: 0 7%;
+    width: 80%;
+}
+
+.pro
+{
+    
+    background: rgb(220, 220, 220);
+    padding: 30px;
+    height: auto;
+    min-height: 600px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.pro img
+{
+    border-radius: 100px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.pro a
+{
+    color:rgb(71 71 71);
+    font-size: 20px;
+}
+
+.pro p
+{
+    margin-top: 30px;
+    display: flex;
+}
+
+.a
+{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: auto;
+    display: table;
+}
+
+.php
+{
+    margin-left: 100px;
+    background: #cccccc;
+    width: 160px;
+    display: block;
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 5px;
+}
+
+
+.php0
+{
+    width: 90px;
+}
+
+svg
+{
+    display: block;
+    padding: 0;
+    margin: -80px;
+}
+
+.info
+{
+    margin-top: -230px;
+}
+

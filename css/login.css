@@ -1,0 +1,211 @@
+/*all body*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.page
+{
+  display:flex;
+  padding:100px; 
+}
+
+.img
+{
+  max-width: 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-right: 10px;
+}
+
+img
+{
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.card
+{
+  max-width: 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+/*form card*/
+.wrapper
+{
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  height: 450px;
+  margin: 60px auto 0 auto;
+  padding: 30px;
+}
+
+/*title card*/
+.wrapper .title
+{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #6c63ff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/*inputcard*/
+.form
+{
+  width: 100%;
+}
+
+/*inputfield*/
+.wrapper .form .inputfield
+{
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper .form .inputfield label
+{
+   width: 200px;
+   color: #757575;
+   margin-right: 10px;
+  font-size: 14px;
+}
+
+.wrapper .form .inputfield .input
+{
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.wrapper .form .inputfield .input:focus
+{
+  border: 1px solid #6c63ff;
+}
+/*checkbox*/
+.wrapper .form .inputfield p
+{
+   font-size: 14px;
+   color: #757575;
+}
+
+.wrapper .form .inputfield .check
+{
+  width: 15px;
+  height: 15px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.wrapper .form .inputfield .check input[type="checkbox"]
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.wrapper .form .inputfield .check .checkmark
+{
+  width: 15px;
+  height: 15px;
+  border: 1px solid #6c63ff;
+  display: block;
+  position: relative;
+}
+
+.wrapper .form .inputfield .check .checkmark:before
+{
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 2px;
+  width: 5px;
+  height: 2px;
+  border: 2px solid;
+  border-color: transparent transparent #fff #fff;
+  transform: rotate(-45deg);
+  display: none;
+}
+
+.wrapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark
+{
+  background: #6c63ff;
+}
+
+.wrapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark:before
+{
+  display: block;
+}
+
+/*btn*/
+.wrapper .form .inputfield .btn
+{
+  width: 100%;
+   padding: 8px 10px;
+  font-size: 15px; 
+  border: 0px;
+  background:  #6c63ff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+}
+
+.wrapper .form .inputfield .btn:hover
+{
+  background: #ffd658;
+}
+
+.wrapper .form .inputfield:last-child
+{
+  margin-bottom: 0;
+}
+
+@media (max-width:420px) 
+{
+  .wrapper .form .inputfield{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .wrapper .form .inputfield label{
+    margin-bottom: 5px;
+  }
+  .wrapper .form .inputfield.terms{
+    flex-direction: row;
+  }
+}
+
+.Registration
+{
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*error*/
+.error
+{
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+  background: #efecec;
+  border-radius: 20px;
+}
+
+

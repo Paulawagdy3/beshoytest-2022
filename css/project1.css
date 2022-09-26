@@ -1,0 +1,184 @@
+/*showdata*/
+.container
+{
+    width: 80%;
+    margin: 115px 7%;
+    border-radius: 25px;
+    min-height: 670px;
+    margin-bottom: 0px;
+    background:rgb(255, 255, 255);
+}
+
+.project{
+	background: linear-gradient(-45deg, #ffffff, #979797, #3f3f3f, #000000);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.card1
+{
+    width: 100%;
+    min-height: 700px;
+    padding: 20px;
+    border-radius: 20px 20px 0 0 ;
+    border-top: 1px solid rgb(100, 100, 100);
+    border-left: 1px solid rgb(100, 100, 100);
+    border-right: 1px solid rgb(100, 100, 100);
+    height: auto;
+    background: #e2e2e2;
+}
+
+.title1
+{
+    text-align: center;
+    margin: -43px auto 50px;
+    padding: 10px 0;
+    border-radius: 20px;
+    background: linear-gradient(
+-45deg
+, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    width: 50%;
+    animation: gradient 15s ease infinite;
+}
+
+
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+
+.project
+{
+    margin-left: 20px;
+    width: 198px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    height: 200px;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+    border: 0.5px solid rgb(62 62 62);
+    overflow: hidden;
+}
+
+.fa-plus
+{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.project:hover
+{
+    box-shadow: 0 0 20px 0px;
+}
+
+.title
+{
+    background: white;
+    margin: -10px -10px 0 -10px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0 0px 0;
+    display: block;
+}
+
+.a1
+{
+    float: left;
+    margin-top: 10px;
+}
+
+.men
+{
+    display: flex;
+}
+
+
+/*add-jointeam*/
+.modal1
+{
+    display: flex;
+    position: relative;
+    z-index: 100;
+    top: -40px;
+    display: none;
+}
+.card
+{
+    margin: 0px 0%;
+    background: #404c58b8;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: fixed;
+}    
+
+.wrapperr1
+{
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 75%;
+    margin: 80px auto;
+    height: 150px;
+}
+.wrapperr2
+{
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 75%;
+    margin: 80px auto;
+    height: 150px;
+}
+
+.but1
+{
+    display: flow-root;
+    padding: 5px;
+    border-radius: 5px;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.but1 a
+{
+    float: left;
+    margin-right: -5px;
+}
+
+.but1 a span 
+{
+    display:block;
+    width:30px;
+    height:5px;
+    background:#2e2e2e;;
+    margin:5px 8px;
+    cursor:pointer;
+}
+

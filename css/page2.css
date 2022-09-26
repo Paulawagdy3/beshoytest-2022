@@ -1,0 +1,209 @@
+.container
+{
+    margin: 0 7%;
+    width: 80%;
+}
+
+
+.back
+{
+    margin-right:115px;
+    margin: 0 auto 200px auto;
+}
+
+.dec
+{
+    position: relative;
+    display: flex;
+}
+
+.dec .dic-info
+{
+    background: white;
+    margin: 0 0 70px 0;
+    width: 100%;
+    height: auto;
+    border-radius: 0 0 20px 20px;
+    box-shadow:30px 30px 60px black;
+}
+
+.dec .dic-info h1
+{
+    padding: 15px 0 15px 15px;
+    color: #6c6c6c;
+}
+
+.dec .dic-info p
+{
+    padding: 15px 15px 15px 15px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #6c6c6c;
+}
+
+.task
+{
+    position: relative;
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.task .task-info
+{
+    width: 45%;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 30px 30px 60px black;
+    min-height: 300px;
+}
+
+
+.task .task-info h2
+{
+    float: left;
+    color: #6c6c6c;
+}
+
+.task .task-info .time
+{
+    float: right;
+}
+
+.task .task-info .time a
+{
+    display: block;
+    color: #6c6c6c;
+}
+
+
+.task .task-info .progress
+{
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
+    width: 80%;
+    margin: 60px auto 0 auto;
+}
+
+.task .task-info .progress .progress-bar
+{
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(208, 208, 208);
+    text-align: center;
+    background-color: #001e38;
+    transition: width .6s ease;
+    width:70%;
+}
+
+.task .task-info .check a
+{
+    display: inline-block;
+    margin-top: 22px;
+    margin-right: 20px;
+    color: #6c6c6c;
+}
+
+.task .task-info .check input,
+.task .task-info .check .checkmark
+{
+    float: right;
+    margin-top: 22px;
+}
+
+.task .task-info .task-front .team
+{
+    float: right;
+    margin-top: 40px;
+}
+
+.task .task-info .task-front .team img
+{
+    margin: 0 3px;
+    border-radius: 40px;
+}
+
+.task .task-info .task-front .team a
+{
+    margin: -40px 0 0 195px;
+    display: flex;
+    font-size: 25px;  
+    color: #6c6c6c; 
+}
+
+.task .task-info .task-front .w
+{
+    margin: 40px 0 0 0;
+    float: left;
+    background: rgb(124, 124, 124);
+    padding: 19px 100px;
+    color: #6c6c6c;
+}
+
+.add_team
+{
+    text-align: center;
+    margin: 68px auto;
+    background: #a7a7a7;
+    padding: 10px 0px 10px 45px;
+    border: 1px solid #000d1f;
+    display: flex;
+    border-radius: 30px;
+}
+
+.modal 
+{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 120px;
+    left: 0px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+}
+.close
+{
+    color: #000000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    background: none;
+}
+
+.card2
+{
+    width: 90%;
+    height: 200px;
+    border-radius: 10px;
+    padding: 30px 15px;
+    font-size: 20px;
+    color: white;
+    margin: 90px 0 0 23px;
+    background: #5c5c5ca1;
+    display: inline-table;
+}
+
+.wrapperr
+{
+    background: #ffffffc7;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.mac_team
+{
+    float: right;
+    margin-right: 20px;
+    margin-top: -30px;
+}
